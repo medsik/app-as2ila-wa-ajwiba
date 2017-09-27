@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1089068218506",
+    "firebase_url": "https://as2ila-jawab.firebaseio.com",
+    "project_id": "as2ila-jawab",
+    "storage_bucket": "as2ila-jawab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089068218506:android:9ce710deea5011d7",
+        "android_client_info": {
+          "package_name": "com.is2all.as2ila_jawab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089068218506-m9fkeq8po6vcdfij9ivtmtpomgokutv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.is2all.as2ila_jawab",
+            "certificate_hash": "0c420dcdac9879a1419a21edd05e903f1d59fa2e"
+          }
+        },
+        {
+          "client_id": "1089068218506-qfg5asarvi1l90neou2pfq1id30n12lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIPYbqZwUKLa_vOFZKQDldAjQ33OcpNSg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089068218506-qfg5asarvi1l90neou2pfq1id30n12lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
