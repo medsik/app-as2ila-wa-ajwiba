@@ -4,6 +4,7 @@
     "firebase_url": "https://as2ila-jawab.firebaseio.com",
     "project_id": "as2ila-jawab",
     "storage_bucket": "as2ila-jawab.appspot.com"
+    
   },
   "client": [
     {
