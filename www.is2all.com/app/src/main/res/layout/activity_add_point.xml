@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backrand_a"
+    tools:context="com.is2all.as2ila_jawab.addPoint">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <Button
+            android:id="@+id/site"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/change_btn_addpoint"
+            android:onClick="site"
+            android:text="+1 نقط\n زر موقعتا"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/you"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/change_btn_addpoint"
+            android:onClick="you"
+            android:text="+3 نقط\n اشترك بقانتا على اليوتوب"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/fac"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/change_btn_addpoint"
+            android:onClick="fac"
+            android:text="+3 نقط\n  الاعجاب بصفحتنا على فيس بوك"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/apps"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/change_btn_addpoint"
+            android:onClick="apps"
+            android:text="+3 نقط\n قم بتثبيت احد التطبيقات"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/change_btn_addpoint"
+            android:onClick="share"
+            android:text="+5 نقط\n  شارك التطبيق مع اصدقائك"
+            android:textSize="18sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
