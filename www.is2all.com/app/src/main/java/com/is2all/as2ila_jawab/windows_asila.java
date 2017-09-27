@@ -50,7 +50,7 @@ public class windows_asila extends AppCompatActivity {
 
         //////// Start // Ads Admob Interstitial ///////////////
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-6359773224465392/9465983954");
+        mInterstitialAd.setAdUnitId("code admob");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
